@@ -22,7 +22,7 @@ public class TestLambda1 {
 				return Integer.compare(o1.length(), o2.length());
 			}
 		};
-		
+
 		TreeSet<String> ts = new TreeSet<>(com);
 		
 		TreeSet<String> ts2 = new TreeSet<>(new Comparator<String>(){
